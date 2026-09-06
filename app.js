@@ -884,7 +884,7 @@
                         <br><br>
 
                         Make sure
-                        Campaigns_Master_Test.xlsx
+                        Campaigns_Master.xlsx
                         is beside index.html.
 
                         <br><br>

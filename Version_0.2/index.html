@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
+    >
+
+    <link
+        rel="icon"
+        type="image/jpg"
+        href="https://doctoreto.com/favicon-96x96.png"
+    >
+
+    <title>Banner Monitor 🔥🧠🪾🦕</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/persian-date@1.1.0/dist/persian-date.min.js"></script>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <h1>
+        ⛏️ Squad 42 🔨🪬
+        <small>Banner Monitor</small>
+    </h1>
+
+    <div class="subtitle">
+        چه خوبه آدم همیشه آمار بنرهاشو داشته باشه ! رفقا ، هرچی اینجا تعامل کنید داشبورد بهتری میتونم درست کنم - لیبل کارشناس - قیمت و غیره ...
+    </div>
+
+
+    <div
+        class="filters"
+        id="filters"
+        style="display:none;"
+    >
+
+        <div class="filter-group">
+
+            <label for="managerFilter">
+                Account Manager
+            </label>
+
+            <select id="managerFilter">
+
+                <option value="all">
+                    All
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="filter-group">
+
+            <label for="priceSort">
+                Price
+            </label>
+
+            <select id="priceSort">
+
+                <option value="default">
+                    Default Order
+                </option>
+
+                <option value="asc">
+                    Ascending
+                </option>
+
+                <option value="desc">
+                    Descending
+                </option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="card-grid"
+        id="cardGrid"
+    >
+
+        <div class="empty-state">
+
+            <strong>
+                ⏳ Loading campaign data...
+            </strong>
+
+            <br>
+
+            <span style="font-size:0.8rem;">
+                Reading Campaigns_Master_Test.xlsx
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="debug-info"
+        id="debugInfo"
+    >
+        Initializing...
+    </div>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
